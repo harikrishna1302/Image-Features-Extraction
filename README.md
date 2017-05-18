@@ -18,3 +18,5 @@ Make sure, the input and output directories should be stored in the same project
 Load the image and we will use 8 samples with a radius of 1. For simplicity, we may directly use the 8-neighbors around a given pixel. Grab the neighbor values going clockwise around the current pixel, starting at the “north” neighbor: (row-1, col), (row-1, col+1), (row, col+1), and so on. For thresholding, assign a 1 to a neighbor value ONLY if the value is GREATER than that of the center pixel.
 (we use rotation-invariant uniform LBP labels.)<br />
 If the number of 1-0 or 0-1 transitions is less than or equal to 2, then use the number of “one” neighbors to determine the label. If the number of transitions is greater than 2, then use the label (sample cnt + 1) = (8 + 1) = 9.
+* For each image, append its filename and histogram to a SINGLE file “HISTOGRAMS.txt”.
+* Compute and save the histogram distances from the histogram for “droid_1.png”. 
