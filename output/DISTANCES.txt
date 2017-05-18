@@ -1,0 +1,7 @@
+blanktest.png 1.06218
+droid_1.png 0
+droid_2.png 0.246456
+droid_3.png 0.515481
+ewok.png 0.792075
+kenobi.png 0.7036
+yoda.png 0.858813
